@@ -10,6 +10,7 @@ $("#guardar").click(function() {
       
      //Ocultando la sección three
      $("#three").show();
+     //Programando añadir lista
      let newList = $("#nombre_lista").val();
      $("#nombre_lista").val("");
      let div_col = $(document.createElement('div'));
@@ -32,7 +33,7 @@ $("#guardar").click(function() {
     boton.prop("type","button");
 
         boton.click(function(){
-        
+          //Programando Nombre lista
             let formulario_2 = $(document.createElement('form'));
             let div_class_2 = $(document.createElement('div'));
             let div_id_2 = $(document.createElement('div'));
@@ -52,6 +53,7 @@ $("#guardar").click(function() {
             boton_2.prop("type","button");
            
             boton_2.click(function(){
+            // Programando Añadir Tarjeta
               let parrafo = $(document.createElement('p'));
               //Asigno a parrafo.text lo que esta en area.text
               // Luego limpio area.text

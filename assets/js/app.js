@@ -1,4 +1,8 @@
 $( document ).ready(function() {
+
+$("#portafolio").click(function(){
+  document.location.replace("https://gabycasti.github.io/portafolio/");
+})
    
 $("#lista").click(function() {
        $("#first").hide();

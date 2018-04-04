@@ -64,6 +64,10 @@ body {
     color: white;
     text-shadow: 2px 3px #999; }
 
+.portafolio {
+  padding-top: 20px;
+  text-align: center !important; }
+
 .part_1 {
   display: inherit; }
 
